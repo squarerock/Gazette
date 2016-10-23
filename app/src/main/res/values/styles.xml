@@ -1,0 +1,94 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="PaddingTheme">
+        <item name="android:paddingLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:paddingEnd">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="BoxTheme" parent="PaddingTheme">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/text_moderate</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:textAllCaps">false</item>
+    </style>
+
+    <style name="CheckBoxTheme" parent="BoxTheme">
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+        <item name="android:button">@null</item>
+        <item name="android:drawableRight">?android:attr/listChoiceIndicatorMultiple</item>
+    </style>
+
+    <style name="DividerTheme.Full" parent="PaddingTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:background">@color/divider_color</item>
+    </style>
+
+    <style name="DividerThemeWithMargin" parent="DividerTheme.Full">
+        <item name="android:layout_marginLeft">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginStart">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginRight">@dimen/activity_horizontal_margin</item>
+        <item name="android:layout_marginEnd">@dimen/activity_horizontal_margin</item>
+    </style>
+
+    <style name="PreferenceHeaderTheme" parent="PaddingTheme">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">32dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:paddingBottom">5dp</item>
+        <item name="android:paddingTop">5dp</item>
+        <item name="android:background">@color/text_grey_light</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/text_small</item>
+    </style>
+
+    <style name="LabelTextViewStyle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginLeft">@dimen/sixteen_dp</item>
+        <item name="android:layout_marginStart">@dimen/sixteen_dp</item>
+        <item name="android:textSize">@dimen/text_moderate</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_alignParentStart">true</item>
+        <item name="android:layout_alignParentLeft">true</item>
+    </style>
+
+    <style name="DatesTextViewStyle">
+        <item name="android:fontFamily">sans-serif-light</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">end|center_vertical</item>
+        <item name="android:focusable">false</item>
+        <item name="android:background">?android:attr/selectableItemBackground</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:layout_marginRight">@dimen/sixteen_dp</item>
+        <item name="android:layout_marginEnd">@dimen/sixteen_dp</item>
+        <item name="android:textSize">@dimen/text_moderate</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:layout_alignParentEnd">true</item>
+        <item name="android:layout_alignParentRight">true</item>
+    </style>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Gazette</string>
+    <string name="search_string">Search...</string>
+    <string name="no_internet_connection">No Internet connection</string>
+    <string name="retry">Retry</string>
+    <string name="customize_text">Customize the fields here for a custom news experience</string>
+    <string name="customize_heading">Customize Sections</string>
+    <string name="end_date">End Date</string>
+    <string name="sort_order">Sort Order</string>
+    <string name="begin_date">Begin Date</string>
+    <string name="dates">Dates</string>
+    <string name="news_desk">News Desk</string>
+    <string name="arts">Arts</string>
+    <string name="fashion_amp_style"><![CDATA[Fashion & Style]]></string>
+    <string name="sports">Sports</string>
+    <string name="reset">Reset</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+</resources>

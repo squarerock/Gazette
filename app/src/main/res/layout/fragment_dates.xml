@@ -1,0 +1,82 @@
+<LinearLayout android:id="@+id/preference_fragment_dates"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:text="@string/dates"
+        style="@style/PreferenceHeaderTheme" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/begin_date"
+            style="@style/LabelTextViewStyle" />
+
+        <EditText
+            android:id="@+id/tv_begin_date"
+            style="@style/DatesTextViewStyle" />
+    </RelativeLayout>
+
+    <View style="@style/DividerThemeWithMargin"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:text="@string/end_date"
+            style="@style/LabelTextViewStyle" />
+
+        <EditText
+            android:id="@+id/tv_end_date"
+            style="@style/DatesTextViewStyle" />
+    </RelativeLayout>
+
+    <TextView
+        android:text="@string/sort_order"
+        style="@style/PreferenceHeaderTheme" />
+
+    <Spinner
+        android:id="@+id/spinner_sort_order"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:paddingTop="8dp"
+        android:paddingBottom="8dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginBottom="2dp"
+        android:entries="@array/sort_order_array">
+    </Spinner>
+
+    <TextView
+        android:text="@string/news_desk"
+        style="@style/PreferenceHeaderTheme" />
+
+    <CheckBox
+        android:id="@+id/chkbx_arts"
+        android:text="@string/arts"
+        style="@style/CheckBoxTheme" />
+
+    <View style="@style/DividerThemeWithMargin"/>
+
+    <CheckBox
+        android:id="@+id/chkbx_fashion"
+        android:text="@string/fashion_amp_style"
+        style="@style/CheckBoxTheme" />
+
+    <View style="@style/DividerThemeWithMargin"/>
+
+    <CheckBox
+        android:id="@+id/chkbx_sports"
+        android:text="@string/sports"
+        style="@style/CheckBoxTheme" />
+
+    <View style="@style/DividerThemeWithMargin"/>
+
+
+</LinearLayout>
